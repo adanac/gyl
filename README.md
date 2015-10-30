@@ -1,2 +1,2 @@
 # gyl
-gyl day02
+gyl
