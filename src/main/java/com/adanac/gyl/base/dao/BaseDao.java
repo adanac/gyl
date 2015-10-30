@@ -12,6 +12,8 @@ import com.adanac.gyl.query.PageResult;
  * 
  * @author adanac
  * 
+ * @version 1.0
+ * 
  */
 public interface BaseDao<T> {
 	/**
