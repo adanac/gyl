@@ -12,6 +12,8 @@ import com.adanac.gyl.query.PageResult;
  * 
  * @author adanac
  * 
+ * @version 1.0
+ * 
  */
 public interface BaseDao<T> {
 	/**
@@ -68,7 +70,7 @@ public interface BaseDao<T> {
 	public Set<T> getEntriesByIds(Serializable[] ids);
 
 	/**
-	 * 查询某一张表的总的记录数
+	 * 查询某一张表的总的记录
 	 */
 	public int getCount(final BaseQuery baseQuery);
 }
